@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <vuescript msg="This is vuescript file"/>
+    <JobInput msg="This is job-input-script component"/>
   </div>
 </template>
 
 <script>
-import vuescript from './components/vueScript.vue'
+import JobInput from './components/job-input-script.vue'
 
 export default {
   name: 'App',
   components: {
-    vuescript
+    JobInput
   }
 }
 </script>

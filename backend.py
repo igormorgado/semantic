@@ -23,8 +23,12 @@ def keywords():
     post_data = request.get_json()
     if post_data['text'] is not None:
         keywords = LangServices.keywords(post_data['text'])
+        print(f"RECEIVED (post_data['text']): {post_data['text']}")
         if len(keywords) > 0:
-            response_object = {'keywords': keywords['ranked phrases']}
+            response_object = [phrase for val, phrase in keywords['ranked phrases']]
+            response_object = {'keywords': response_object}
+            print(f"RESPONSE {response_object}")
+
     return jsonify(response_object)
 
 port = os.getenv ('PORT', '5006')
