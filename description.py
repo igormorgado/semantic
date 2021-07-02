@@ -3,7 +3,6 @@ Job description
 
 Quickly maturing startup seeking like minded Python Engineer! PacketFabric redefines how companies procure, consume, and manage their network connectivity. The technical team is a small, talented, and close knit group and we need a team member to help us accomplish our goal of making the best darn carrier network on the planet.
 
-Description
 
 As a well rounded software engineer, you should definitely be the type that appreciates diversity in your day, and challenges outside of your comfort level! A typical day in the life of a PacketFabric software engineer might include these types of activities:
 
