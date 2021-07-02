@@ -1,8 +1,13 @@
 # semantic
 
+A Python Flask + NPM vuejs test code...
+
 ## Project setup
 ```
-npm install
+pip install numpy nltk rake_nltk textblob textstat gensim flask
+npm install vue bootstrap bootstrap-vue
+npm install --save vue-text-highlight
+npm install -g @vue/cli
 ```
 
 ### Compiles and hot-reloads for development
@@ -13,6 +18,7 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+python backend.py
 ```
 
 ### Lints and fixes files
